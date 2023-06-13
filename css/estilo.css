@@ -1,0 +1,136 @@
+/*-------------------------------------
+Fonts Setup
+---------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/*-------------------------------------
+Color Setup
+---------------------------------------*/
+:root {
+    --primary: #222222;
+    --primary-dark: #1D1D1D;
+    --black: #010101;
+    --gray-1: #545454;
+    --white: #FFFFFF;
+    --body: #FFFFFF;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: var(--body);
+}
+
+/* Button */
+.btn {
+    border-radius: 10px;
+}
+
+.btn-dark {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    padding: 10px 20px;
+}
+
+.btn-dark:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+/*-------------------------------------
+Hero Section
+---------------------------------------*/
+section.hero { 
+    padding: 60px 0;
+}
+
+section.hero #text-div {
+    padding: 50px 0;
+}
+
+section.hero #text {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight:bolder;
+    line-height: 50px;
+    color: #000000;
+}
+section.hero #text-1 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+section.hero #img-size {
+    width: 550px;
+    height: 350px;
+    position: absolute;
+}
+
+/*-------------------------------------
+Categories Section
+---------------------------------------*/
+section.categories {
+    padding: 60px 0;
+}
+section.categories .nav-link {
+    color: var(--black);
+}
+section.categories .nav-link.active {
+    background-color: var(--primary);
+}
+section.categories .btn-secondary {
+    background-color: var(--white);
+    border-color: var(--white);
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+section.categories .btn-dark {
+    padding: 0 10px;
+}
+section.categories #op {
+    width: 54px;
+    height: 54px;
+}
+section.categories #op-text {
+    position: absolute;
+    width: 400px;
+    height: 59px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    padding-left: 21px;
+}
+section.categories #op-div {
+    padding: 64px 0;
+}
+
+/*-------------------------------------
+Advantages Section
+---------------------------------------*/
+section.advantages {
+    padding: 80px 0;
+}
+section.advantages #advantage-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+}
+section.advantages #title-advantage {
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+section.advantages #op-advantage {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
